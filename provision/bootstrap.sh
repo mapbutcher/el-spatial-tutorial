@@ -9,7 +9,4 @@ wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearc
 sudo dpkg -i elasticsearch-0.90.8.deb
 sudo /usr/share/elasticsearch/bin/plugin -install mobz/elasticsearch-head
 sudo /usr/share/elasticsearch/bin/plugin -install karmi/elasticsearch-paramedic
-
-
-
-
+sudo /usr/share/elasticsearch/bin/plugin -install lukas-vlcek/bigdesk
