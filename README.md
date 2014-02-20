@@ -37,6 +37,7 @@ OK now we need to create a virtual machine and install Elasticsearch. With vagra
 
 so it takes a little longer. To do these things run:
 ```bash
+$ vagrant box add precise32 http://files.vagrantup.com/precise32.box
 $ vagrant up
 ```
 
